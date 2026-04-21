@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+    
     <style>
       /* Hide scrollbar for Chrome, Safari */
       .scrollbar-hide::-webkit-scrollbar {
@@ -24,12 +25,24 @@
 
       /* Text Slider Animations */
       @keyframes slideOutUp {
-        0% { transform: translateY(0); opacity: 1; }
-        100% { transform: translateY(-20px); opacity: 0; }
+        0% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-20px);
+          opacity: 0;
+        }
       }
       @keyframes slideInDown {
-        0% { transform: translateY(20px); opacity: 0; }
-        100% { transform: translateY(0); opacity: 1; }
+        0% {
+          transform: translateY(20px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
       }
       .slide-out-up {
         animation: slideOutUp 0.5s ease-in forwards;
@@ -184,7 +197,7 @@
               />
               <!-- Slide 4 -->
               <img
-                src=""
+                src="https://as1.ftcdn.net/v2/jpg/04/18/51/36/1000_F_418513636_E4x4kgDkdFX6quABAi5nbwzVpOwOwgx1.jpg"
                 class="min-w-full h-full object-cover pointer-events-auto"
               />
             </div>
@@ -235,20 +248,286 @@
           class="flex flex-col items-center md:items-start text-white text-center md:text-left gap-1 md:gap-2 w-[200px] md:w-[400px]"
         >
           <div class="flex items-start gap-3 h-[50px] md:h-[80px]">
-            <i class="fa-solid fa-quote-left text-white text-sm md:text-xl mt-1"></i>
-            <h4 id="quote-text" class="text-[12px] sm:text-[14px] overflow-hidden mt-1 md:mt-2 flex md:text-2xl font-semibold">
+            <i
+              class="fa-solid fa-quote-left text-white text-sm md:text-xl -mt-2 md:-mt-4"
+            ></i>
+            <h4
+              id="quote-text"
+              class="text-[12px] sm:text-[14px] overflow-hidden mt-1 md:mt-2 flex md:text-2xl font-semibold"
+            >
               Two souls, one heart, blooming together forever.
             </h4>
           </div>
 
           <div class="flex items-center -mt-2 md:-mt-4 gap-0.5 md:gap-3">
             <div class="h-[1px] w-6 md:w-10 bg-white"></div>
-            <p class="text-[9px] md:text-sm whitespace-nowrap">With Maa Durga Florals</p>
+            <p class="text-[9px] md:text-sm whitespace-nowrap">
+              With Maa Durga Florals
+            </p>
             <div class="h-[1px] w-6 md:w-10 bg-white"></div>
           </div>
         </div>
       </div>
     </div>
+
+    <div
+      class="flex flex-col justify-center items-center font-semibold text-xl md:text-[30px] mt-3 text-center"
+    >
+      <h1>Welcome to Bhiwadi</h1>
+      <img
+        src="asset/hortizont-arrow.png"
+        alt=""
+        class="w-[85%] md:w-auto h-auto mt-1 md:mt-2"
+      />
+    </div>
+
+    <!-- Welcome To Bhiwadi -->
+    <div class="max-w-5xl mx-auto px-4 py-10 flex flex-col gap-8 md:gap-16">
+      <!-- First Block -->
+      <div class="flex flex-row items-center text-left gap-4 md:gap-8">
+        <div class="shrink-0">
+          <img
+            src="asset/Rectangle 36.png"
+            class="w-28 h-28 sm:w-40 sm:h-40 md:w-60 h-auto md:h-60"
+          />
+        </div>
+        <div>
+          <h2
+            class="text-lg sm:text-xl md:text-2xl font-semibold border-b-2 border-gray-300 inline-block mb-1 sm:mb-2 pb-1"
+          >
+            Flower Shop
+          </h2>
+          <p
+            class="text-gray-600 text-xs sm:text-sm md:text-base leading-relaxed line-clamp-3 md:line-clamp-none"
+          >Flower shops in Bhiwadi provide fresh bouquets, floral decorations, and quick delivery services for occasions like birthdays, weddings, and anniversaries. Popular options such as Phoolwala and Ferns N Petals offer customizable arrangements, cakes, and same-day delivery, making gifting easy and convenient. 
+
+          </p>
+        </div>
+      </div>
+
+      <!-- Second Block -->
+      <div
+        class="flex flex-row-reverse justify-between items-center text-left gap-4 md:gap-8"
+      >
+        <div class="shrink-0">
+          <img
+            src="asset/Rectangle 77.png"
+            class="w-28 h-28 sm:w-40 sm:h-40 md:w-60 h-auto md:h-60 px-1.5"
+          />
+        </div>
+        <div class="w-full">
+          <h2
+            class="text-lg sm:text-xl md:text-2xl font-semibold border-b-2 border-gray-300 inline-block mb-1 sm:mb-2 pb-1"
+          >
+            Tijara Jain Temple
+          </h2>
+          <p
+            class="text-gray-600 text-xs sm:text-sm md:text-base leading-relaxed line-clamp-3 md:line-clamp-none"
+          >
+            Tijara Jain Temple is a famous Digambara Jain temple dedicated to Lord Chandraprabhu, the 8th Tirthankara. It was established after a sacred idol was discovered in 1956. Known for its beautiful marble architecture and peaceful atmosphere, it is considered a holy pilgrimage site and attracts devotees from across India.
+
+          </p>
+        </div>
+      </div>
+
+      <!-- Third Block -->
+      <div class="flex flex-row items-center text-left gap-4 md:gap-8">
+        <div class="shrink-0">
+          <img
+            src="asset/Rectangle 39.png"
+            class="w-28 h-28 sm:w-40 sm:h-40 md:w-60 h-auto md:h-60"
+          />
+        </div>
+        <div>
+          <h2
+            class="text-lg sm:text-xl md:text-2xl font-semibold border-b-2 border-gray-300 inline-block mb-1 sm:mb-2 pb-1"
+          >
+           Neemrana Fort Palace
+          </h2>
+          <p
+            class="text-gray-600 text-xs sm:text-sm md:text-base leading-relaxed line-clamp-3 md:line-clamp-none"
+          >
+            Neemrana Fort Palace is a stunning 15th-century heritage fort located in Rajasthan, built in 1464 and later transformed into a luxury hotel. Nestled in the Aravalli hills, it offers breathtaking views, royal architecture, and modern amenities like pools and spa. It’s a popular weekend getaway near Delhi, blending history with comfort.
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Founder -->
+    <div
+      class="flex flex-col justify-center items-center font-semibold text-xl md:text-[30px] mt-3 text-center"
+    >
+      <h1>The Founder</h1>
+      <img
+        src="asset/hortizont-arrow.png"
+        alt=""
+        class="w-[85%] md:w-auto h-auto mt-1 md:mt-2"
+      />
+    </div>
+
+  
+
+  <div class="max-w-5xl mx-auto px-4 py-10">
+
+  <div class="flex items-center gap-4 md:gap-6">
+    
+    <!-- Left: Image + Name -->
+    <div class="flex flex-col items-center w-24 sm:w-32 md:w-52 shrink-0">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvTt6sIs3iBINqUJLFNPjeNlups8UeDAghHw&s"
+        class="w-20 h-20 sm:w-28 sm:h-28 md:w-52 md:h-52 rounded-full object-cover"
+      />
+      <p class="mt-2 text-xs sm:text-sm md:text-lg font-semibold text-center">
+        Rajkumar Sahoo
+      </p>
+    </div>
+
+    <!-- Right: Quote + Text -->
+    <div class="flex-1">
+      <div class="flex items-start gap-2">
+        <span class="text-xl sm:text-2xl md:text-4xl font-bold leading-none -mt-2 md:-mt-4"><i
+              class="fa-solid fa-quote-left text-black text-sm md:text-xl"
+            ></i></span>
+        <p class="text-gray-700 text-xs sm:text-sm md:text-lg leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+        </p>
+      </div>
+
+      <p class="text-right mt-2 text-xs sm:text-sm md:text-base italic font-semibold">
+        by Founder
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+ <div
+      class="flex flex-col justify-center items-center font-semibold text-xl md:text-[30px] mt-3 text-center"
+    >
+      <h1>Catagories</h1>
+      <img
+        src="asset/hortizont-arrow.png"
+        alt=""
+        class="w-[85%] md:w-auto h-auto mt-1 md:mt-2"
+      />
+    </div>
+
+<div class="max-w-4xl mx-auto px-6 md:px-16 py-8">
+
+  <div class="grid grid-cols-3 gap-6 md:gap-10">
+
+    <!-- Card -->
+    <div class="text-center">
+      <img src="https://media.craiyon.com/2025-04-15/LIELtR5xRV6NqBn7wtmtSw.webp" class="w-full h-28 sm:h-32 md:h-auto md:aspect-square object-cover rounded-xl">
+      <button class="mt-2 inline-block bg-[#8aa17f] text-xs font-bold sm:text-sm px-3 py-1 rounded-full"><a href="" class="no-underline"></a> Wedding</button>
+    </div>
+
+    <div class="text-center">
+      <img src="https://i.pinimg.com/originals/c1/36/1b/c1361b8d4de1fcf8fa19730ddcd443b3.jpg" class="w-full h-28 sm:h-32 md:h-auto md:aspect-square object-cover rounded-xl">
+       <button class="mt-2 inline-block bg-[#8aa17f] text-xs font-bold sm:text-sm px-3 py-1 rounded-full"><a href="" class="no-underline"></a> Baby Shower</button>
+    </div>
+
+    <div class="text-center">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.vSB7V4KwX3yIyW4Xr-6OhgHaGN?w=720&h=604&rs=1&pid=ImgDetMain&o=7&rm=3" class="w-full h-28 sm:h-32 md:h-auto md:aspect-square object-cover rounded-xl">
+      <button class="mt-2 inline-block bg-[#8aa17f] text-xs font-bold sm:text-sm px-3 py-1 rounded-full"><a href="" class="no-underline"></a> Birthday</button>
+    </div>
+
+    <div class="text-center">
+      <img src="https://th.bing.com/th/id/OIP.bnW6XKIY5kkGaoT4uNp1twHaFU?w=261&h=187&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" class="w-full h-28 sm:h-32 md:h-auto md:aspect-square object-cover rounded-xl">
+     <button class="mt-2 inline-block bg-[#8aa17f] text-xs font-bold sm:text-sm px-3 py-1 rounded-full"><a href="" class="no-underline"></a> Festival</button>
+    </div>
+
+    <div class="text-center">
+      <img src="https://th.bing.com/th/id/OIP.WYf8Rah7rJLiFIDGy3mGxwHaE7?w=227&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" class="w-full h-28 sm:h-32 md:h-auto md:aspect-square object-cover rounded-xl">
+      <button class="mt-2 inline-block bg-[#8aa17f] text-xs font-bold sm:text-sm px-3 py-1 rounded-full"><a href="" class="no-underline"></a> Surprise's</button>
+    </div>
+
+    <div class="text-center">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.bqtWtIBD3tI76ZjngDlwFAHaE8?pid=ImgDet&w=181&h=120&c=7&dpr=1.5&o=7&rm=3" class="w-full h-28 sm:h-32 md:h-auto md:aspect-square object-cover rounded-xl">
+      <button class="mt-2 inline-block bg-[#8aa17f] text-xs font-bold sm:text-sm px-3 py-1 rounded-full"><a href="" class="no-underline"></a> Anniversary</button>
+     
+    </div>
+
+  </div>
+
+</div>
+
+ <footer class="relative bg-[#818D7F] text-white mt-24 pt-24 pb-8 overflow-visible">
+
+  <!-- Floating Logo -->
+  <div class="absolute -top-14 left-6 md:left-20">
+    <img 
+      src="asset/Group 63.png" 
+      alt="Logo"
+      class="h-20 md:h-28 w-auto drop-shadow-lg"
+    >
+  </div>
+
+  <!-- Decorative Animations -->
+  <div class="absolute opacity-20 text-6xl md:text-8xl pointer-events-none rotate-12 right-6 top-10 md:right-32 animate-[bounce_4s_infinite]">
+    🌺
+  </div>
+
+  <div class="absolute opacity-20 text-5xl md:text-7xl pointer-events-none -rotate-12 left-6 bottom-4 md:left-24 animate-[bounce_5s_infinite]">
+    🌸
+  </div>
+
+  <!-- Content -->
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+
+    <!-- Empty space for logo alignment (optional clean spacing) -->
+ 
+
+    <!-- Quick Links -->
+    <div>
+      <h2 class="text-xl md:text-2xl font-bold mb-5 underline decoration-yellow-200 underline-offset-8">
+        Quick Links
+      </h2>
+
+      <ul class="grid grid-cols-2 gap-y-3 text-sm md:text-base">
+        <li><a href="#" class="hover:text-yellow-200 transition">Home</a></li>
+        <li><a href="#" class="hover:text-yellow-200 transition">Collection</a></li>
+        <li><a href="#" class="hover:text-yellow-200 transition">Services</a></li>
+        <li><a href="#" class="hover:text-yellow-200 transition">Occasion</a></li>
+        <li><a href="#" class="hover:text-yellow-200 transition">Contact</a></li>
+        <li><a href="#" class="hover:text-yellow-200 transition">Cart 🛒</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <h2 class="text-xl md:text-2xl font-bold mb-5 underline decoration-yellow-200 underline-offset-8">
+        Contact Us
+      </h2>
+
+      <ul class="space-y-4 text-sm md:text-base">
+        <li class="flex gap-3">
+          <span>📍</span>
+          <span>Main Market, Bhiwadi<br>Rajasthan, 301019</span>
+        </li>
+
+        <li class="flex gap-3">
+          <span>📞</span>
+          <span>+91 98765 43210</span>
+        </li>
+
+        <li class="flex gap-3">
+          <span>✉️</span>
+          <span>info@maadurgaflorals.com</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Bottom -->
+  <div class="mt-12 pt-4 border-t border-white/20 text-center text-sm text-white/80">
+    © 2026 Maa Durga Florals. All rights reserved.
+  </div>
+
+</footer>
 
     <script>
       const totalSlides = 4;
@@ -281,29 +560,29 @@
         }, 500);
       }, 3500);
       const quotes = [
-  "Two souls, one heart, blooming together forever.",
-  "Every petal tells a story of love.",
-  "Celebrate moments with flowers and fragrance.",
-  "Where emotions bloom beautifully."
-];
+        "Two souls, one heart, blooming together forever.",
+        "Every petal tells a story of love.",
+        "Celebrate moments with flowers and fragrance.",
+        "Where emotions bloom beautifully.",
+      ];
 
-let i = 0;
-const quote = document.getElementById("quote-text");
+      let i = 0;
+      const quote = document.getElementById("quote-text");
 
-setInterval(() => {
-  // Slide out to top
-  quote.classList.remove("slide-in-down");
-  quote.classList.add("slide-out-up");
+      setInterval(() => {
+        // Slide out to top
+        quote.classList.remove("slide-in-down");
+        quote.classList.add("slide-out-up");
 
-  setTimeout(() => {
-    // Change text and slide in from bottom
-    i = (i + 1) % quotes.length;
-    quote.textContent = quotes[i];
-    
-    quote.classList.remove("slide-out-up");
-    quote.classList.add("slide-in-down");
-  }, 500);
-}, 3500);
+        setTimeout(() => {
+          // Change text and slide in from bottom
+          i = (i + 1) % quotes.length;
+          quote.textContent = quotes[i];
+
+          quote.classList.remove("slide-out-up");
+          quote.classList.add("slide-in-down");
+        }, 500);
+      }, 3500);
     </script>
   </body>
 </html>
